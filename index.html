@@ -10,39 +10,44 @@
 <body>
 <div class="container">
     <header class="header">
-        <nav class="header__nav">
-            <div class="header__menu">
-                <div class="header__menu-left">
-                    <div class="menu-item">
-                        <button class="mobile-btn"></button>
+        <div class="header__inner">
+            <div class="header__buttons">
+                <div class="header__buttons-left">
+                    <button class="button-item button-item_burger"></button>
+                    <div class="header__logo">
+                        <a href="#"><img class="logo" src="./assets/img/logo.svg" alt="Logo company"></a>
                     </div>
-                    <div class="menu-item menu-logo"><a href="#"><img class="logo" src="./assets/img/logo.svg"
-                                                                      alt="Logo"></a></div>
                 </div>
-                <div class="header__menu-right">
-                    <div class="menu-item hidden"><a class="phone-icon" href="#"></a></div>
-                    <div class="menu-item hidden"><a class="chat-icon" href="#"></a></div>
-                    <div class="menu-item profile-line hidden"><a class="profile-icon" href="#"></a></div>
-                    <div class="menu-item setting-margin"><a class="setting" href="#"></a></div>
-                    <div class="menu-item"><a class="search" href="#"></a></div>
+                <div class="header__buttons-right">
+                    <button class="button-item button-item_phone_background button-item_hidden"></button>
+                    <button class="button-item button-item_chat_background button-item_hidden"></button>
+                    <button class="button-item button-item_profile_background button-item_hidden"></button>
+                    <div class="header__buttons-right--text">
+                        <span class="btn-text">Оставить заявку</span>
+                        <button class="button-item button-item_setting_background"></button>
+                    </div>
+                    <div class="header__buttons-right--text">
+                        <span class="btn-text">Статус ремонта</span>
+                        <button class="button-item button-item_search_background"></button>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <main class="main">
         <section class="page-heading">
             <h1 class="title">Услуги и сервисы</h1>
         </section>
-        <section class="pages">
-            <ul class="pages__list-group">
-                <li class="pages__list-group-item"><a class="list-link active" href="#">Ремонтируемые бренды</a></li>
-                <li class="pages__list-group-item"><a class="list-link" href="#">Ремонтируемые устройства</a></li>
-                <li class="pages__list-group-item"><a class="list-link" href="#">Цены на услуги</a></li>
-                <li class="pages__list-group-item"><a class="list-link" href="#">Адреса сервисных центров</a></li>
-                <li class="pages__list-group-item"><a class="list-link" href="#">Специальные цены</a></li>
-                <li class="pages__list-group-item"><a class="list-link" href="#">Отзывы</a></li>
+        <nav class="nav">
+            <ul class="nav__menu">
+                <li class="nav__menu-item"><a class="nav-link active" href="#">Ремонтируемые бренды</a></li>
+                <li class="nav__menu-item"><a class="nav-link" href="#">Ремонтируемые устройства</a></li>
+                <li class="nav__menu-item"><a class="nav-link" href="#">Цены на услуги</a></li>
+                <li class="nav__menu-item"><a class="nav-link" href="#">Адреса сервисных центров</a></li>
+                <li class="nav__menu-item"><a class="nav-link" href="#">Специальные цены</a></li>
+                <li class="nav__menu-item"><a class="nav-link" href="#">Отзывы</a></li>
             </ul>
-        </section>
+        </nav>
         <section class="about">
             <div class="about__inner">
                 <div class="about__text">
