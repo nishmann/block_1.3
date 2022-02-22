@@ -247,6 +247,7 @@ li {
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+    position: relative;
   }
 
   &__menu-item {
@@ -299,6 +300,17 @@ li {
       margin: 0;
     }
   }
+  .nav-link_fade:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 40px;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  }
+
 }
 
 //--- ABOUT
@@ -327,6 +339,7 @@ li {
   @media (max-width: 674px) {
     .about__inner {
       flex-direction: column;
+      align-items: center;
     }
     .about__text {
       padding: 0 16px;

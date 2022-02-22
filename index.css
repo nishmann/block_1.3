@@ -234,6 +234,7 @@ li {
   align-items: center;
   flex-wrap: wrap;
   gap: 15px;
+  position: relative;
 }
 .nav__menu-item {
   margin-right: 15px;
@@ -280,6 +281,17 @@ li {
   .nav__menu-item {
     margin: 0;
   }
+
+  .nav-link_fade:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 40px;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  }
 }
 .about {
   padding: 8px 32px 50px 32px;
@@ -302,6 +314,7 @@ li {
 @media (max-width: 674px) {
   .about .about__inner {
     flex-direction: column;
+    align-items: center;
   }
   .about .about__text {
     padding: 0 16px;
