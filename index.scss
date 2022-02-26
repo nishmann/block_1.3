@@ -282,6 +282,7 @@ li {
   border: 2px solid #B8FFEC;
   box-sizing: border-box;
   border-radius: 6px;
+
 }
 
 @media (max-width: 1109px) {
@@ -397,4 +398,154 @@ li {
     max-width: 360px;
     transition: 1s;
   }
+}
+
+// --- MOBILE MENU --- //
+
+.aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 1024px;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__header-left {
+    display: flex;
+  }
+
+  &__logo {
+    padding-left: 16px;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  .button-item {
+    cursor: pointer;
+  }
+
+  .button-item:hover {
+    background-color: #E23066;
+    transition: 200ms;
+  }
+
+  .nav__menu {
+    overflow: visible;
+  }
+
+  &__nav {
+    margin-top: 46px;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .nav-link.active {
+    padding: 0;
+    border: none;
+    color: #7E7E82;
+  }
+
+  .active:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    height: 32px;
+    border: 2px solid #41F6D7;
+    background: #41F6D7;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 32px;
+  }
+
+  &__footer-buttons {
+    display: flex;
+    gap: 16px;
+  }
+
+  .button-item_profile_background:after {
+    content: none;
+  }
+
+  &__footer-mail {
+    padding: 16px 0;
+
+    a {
+      text-decoration: none;
+      font-family: "TTRegular", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+    }
+  }
+
+  &__footer-phone {
+    a {
+      text-decoration: none;
+      font-family: "TTBold", sans-serif;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.6px;
+      color: #1B1C21;
+    }
+  }
+
+  &__footer-lang {
+    padding-top: 40px;
+
+    .lang {
+      font-family: "TTMedium", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+      border: none;
+      background: transparent;
+    }
+
+    .active-lang {
+      color: #7E7E82;
+    }
+  }
+}
+
+.button-item_close {
+  background-image: url("assets/img/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-item_search_loupe_background {
+  background-image: url("assets/img/search-loupe.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aside__nav .nav-link {
+  display: flex;
+  align-items: center;
+  color: #1B1C21;
 }
