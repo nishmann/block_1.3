@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffdaa590-929f-43d5-93d4-1dcf93ab73dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1.4/mobile-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/1.2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +55,14 @@
       <workItem from="1645806275153" duration="26000" />
       <workItem from="1645806731914" duration="2858000" />
       <workItem from="1645901893623" duration="38000" />
+      <workItem from="1645901937104" duration="709000" />
+      <workItem from="1646049849867" duration="2000" />
+      <workItem from="1646065235399" duration="599000" />
+      <workItem from="1646066104571" duration="36000" />
+      <workItem from="1646066142352" duration="475000" />
+      <workItem from="1646066643800" duration="71000" />
+      <workItem from="1646066721545" duration="120000" />
+      <workItem from="1646066857148" duration="128000" />
     </task>
     <servers />
   </component>
